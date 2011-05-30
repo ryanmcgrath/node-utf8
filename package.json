@@ -1,0 +1,32 @@
+{
+  "name": "utf8",
+  "description": "Basic Utf-8 encoding/decoding library to alleviate confusion among people.",
+  "version": "1.0.0",
+  "author": "Ryan McGrath <ryan@venodesigns.net>",
+
+  "repository": {
+    "type" : "git",
+    "url": "https://ryanmcgrath@github.com/ryanmcgrath/node-utf8.git"
+  },
+
+  "bugs": {
+    "web": "http://github.com/ryanmcgrath/node-utf8/issues"
+  },
+
+  "os": [ "linux", "darwin", "freebsd" ],
+
+  "directories": {
+    "lib": "./lib/"
+  },
+
+  "main": "./lib/utf8",
+
+  "engines": { 
+    "node": ">=0.1.97"
+  },
+
+  "licenses": [{
+    "type" : "Creative Commons 3.0",
+    "url" : "http://github.com/ryanmcgrath/node-utf8/raw/master/LICENSE"
+  }]
+}
